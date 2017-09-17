@@ -72,8 +72,7 @@
 
 <!DOCTYPE html>
 <html>
-
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-wedith">
     <meta name="description" content="Portfolio-Pure HTML">
@@ -81,7 +80,6 @@
     <meta name="author" content="Hamed Sharif">
     <title>Portfolio-PureHTMK</title>
   </head>
-
 <body>
   <header style="background-image:url('img/images/Dubai.jpg');">
 
@@ -97,49 +95,48 @@
         </nav>
     </section>
   </header>
-
-<main style="background-image:url('img/images/html5.jpg')";>
-  <section id="Presentation" >
+<main style="background-image:url('img/html5.jpg')";>
+    <section id="Presentation" >
     <h1>Presentation</h1>
        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-         Etiam eu luctus ipsum, rhoncus semper magna. Nulla nec magna sit amet sem interdum condimentum.</p>
+         Etiam eu luctus ipsum, rhoncus semper magna. Nulla nec magna sit
+           amet sem interdum condimentum.</p>
   </section>
-    <section>
+    <section id="Comment">
       <h1>Write your coment and Subscribe To Our Webpage...!</h1>
-
       <textarea name="comment" id="submit" placeholder="Enter Your Comment..." cols="30" rows="10"></textarea>
-      <form action="index.html" method="get">
-
-        <br>
+      <form action="index.html" method="get"><br>
         <input type="email" placeholder="Enter Email...">
         <button type="submit">Subscribe</button>
       </form>
     </section>
-
-  <section id="Images off celebrities">
-    <figure>
-
+    <section id="Images Figure ">
+      <figure>
         <img src='img/logo_html.png' height="150" alt='missing' />
-        <figcaption>This is the last version 
-          
-          <br><a href="https://sv.wikipedia.org/wiki/HTML5">HTML5</a></figcaption>
+        <figcaption>This is the last version<br>
+        <a href="https://sv.wikipedia.org/wiki/HTML5">HTML5</a></figcaption><br>
+        <img src='img/html.jpg' height="150" alt='missing' />
+        <figcaption>This is the second version<br>
+        <a href="https://sv.wikipedia.org/wiki/HTML">HTML</a></figcaption><br>
+        <img src='img/Xhtml.png' height="150" alt='missing' />
+        <figcaption>This is the first version<br>
+        <a href="https://sv.wikipedia.org/wiki/XHTML">XHTML</a></figcaption>
+      </figure>
+    </section>
+    <section id="Form"><br><br>
+        <form action="index.html" method="get">
+        <label for="username">User Name : </label>
+        <input type="text" name="username" pattern=".{3,}" pattern="[a-zA-Z- ]+" required ><br>
+        <label for="email">E-mail : </label>
+        <input type="email" name="email"><br>
+        <textarea name="comment" id="submit" cols="30"
+                  rows="10" placeholder="Enter Your additional Comment..."
+                  maxlength="255" pattern=".{3,}" required></textarea><br>
+        <label for="submit">Submit</label>
+        <input type="submit" name="submit">
 
-        <img src='images/album2.jpg' alt='missing' />
-        <figcaption>Album name goes here
-          <br>Year goes here
-          <br>artist name goes here</figcaption>
-
-        <img src='images/album2.jpg' alt='missing' />
-        <figcaption>Album name goes here
-          <br>Year goes here
-          <br>artist name goes here</figcaption>
-    </figure>
-
-  </section>
-
-
-
-
+        </form>
+    </section>
 </main>
 
 </body>
